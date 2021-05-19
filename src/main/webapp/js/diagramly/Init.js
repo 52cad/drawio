@@ -102,7 +102,8 @@ window.mxLanguage = window.mxLanguage || (function()
 			{
 				// cookies are disabled, attempts to use local storage will cause
 				// a DOM error at a minimum on Chrome
-				isLocalStorage = false;
+				// isLocalStorage = false;
+				isLocalStorage = true;				
 			}
 		}
 	}
